@@ -1,4 +1,3 @@
-
 body {
 	background-color: #DCDCDC;
 	min-width: 600px;	
@@ -9,10 +8,17 @@ body {
 	border-width: 2px;
 	border-color: #444444;
 	padding: 20px;
+    font-family: "Verdana", sans-serif;
 }
 
 table {
-	/* TODO - decide on table styling */
+	border: 1px solid black;
+    border-collapse: collapse;
+    
+}
+
+table #category {
+  background: #9F9FA0;  
 }
 
 h1, h2 {
