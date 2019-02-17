@@ -5,20 +5,21 @@ body {
 	margin-right: 3%;
 	position: relative;
 	padding: 20px;
-    font-family: "Verdana", sans-serif;
-    font-size: 9pt;
+   font-family: "Verdana", sans-serif;
 }
-img{
+img {
 	width: 200px;
 	height: 180px;
 	border-radius: 5px;
-
 }
 table {
 	border: 1px solid black;
     border-collapse: collapse;
     text-align: center;
-    
+    font-size: 10pt;
+}
+p	{
+	font-size: 11pt;
 }
 
 table #category {
