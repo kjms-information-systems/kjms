@@ -1,322 +1,58 @@
-<!DOCTYPE html>
-<html lang="en">
-	<head>
-		<title>JKMS Info. Sys.</title>
-		<meta charset="UTF-8">
-		<meta name="author" content=" Gregory Sparks" >
-		<meta name="description" content="This is our report for ct310 m1.">
-		<meta name="keywords" content="HTML,CSS">
-	<link rel="stylesheet" type="text/css" href="site.css">
-	</head>
-	<body>
-	<div style="height: 190px;">
-		<img src="KJMSInformationSystems.png" alt="our logo" align="right"/><h1>KJMS Information Systems</h1>
-    </div>
-		<hr>
-		<div class="swedishMC">		
-		<h2>Swedish Medical Center - Englewood, Colorado</h2>	
-		<h3>Report of Fiscal Year 2017</h3>	
-			<div id="contentSMC">
-				<div id="stats">
-					<p><strong>Medicare Reimbursement</strong> - $38,145,589.18</p>
-					<p><strong>VBP Bonus/Penalty</strong> - $?</p>
-					<p><strong>Adjusted Medicare Reimbursement</strong> - $?</p>
-					<br>
-				</div>
-				<div id="Hospital_Scores">
-					<h3>Hospital Scores</h3>
-						<table border="1">
-							<tr>
-								<td id="category">Safety</td>
-								<td> INSERT DATA </td>
-							</tr>
-							<tr>
-								<td id="category">Clinical Care</td>
-								<td>4.167</td>
-							</tr>
-							<tr>
-								<td id="category">Efficiency</td>
-								<td>0</td>
-							</tr>
-							<tr>
-								<td id="category">Patient and Caregiver-Centered Experience</td>
-								<td></td>
-							</tr>
-							<tr>
-								<td id="category">Total Performance Score (TPS)</td>
-								<td></td>
-							</tr>
-						</table>
-				</div>
-				
-				<div id="HCAHPS" >
-					<h3>HCAHPS</h3>
-						<table border="1">
-							<tr>
-								<td id="measure"></td>
-								<td id="measure">Floor</td>
-								<td id="measure">Achievement Threshold</td>
-								<td id="measure">Benchmark</td>
-								<td id="measure">Baseline Rate</td>
-								<td id="measure">Performance Rate</td>
-								<td id="measure">Achievement Points</td>
-								<td id="measure">Improvement Points</td>
-								<td id="measure">Dimension Score</td>
-								
-							</tr>
-						
-							<tr>
-								<td id="category">Communication with Nurses</td>
-								<td>55.27</td>
-								<td>78.52</td>
-								<td>86.68</td>
-								<td>76.36</td>
-								<td>77.68</td>
-								<td>0 out of 10</td>
-								<td>1 out of 9</td>
-								<td>1 out of 10</td>
-							</tr>
-							<tr>
-								<td id="category">Communication with Doctors</td>
-								<td>57.39</td>
-								<td>80.44</td>
-								<td>88.51</td>
-								<td>74.73</td>
-								<td>75.49</td>
-								<td>0 out of 10</td>
-								<td>0 out of 9</td>
-								<td>0 out of 10</td>
-							</tr>
-							<tr>
-								<td id="category">Responsiveness of Hospital Staff</td>
-								<td>38.40</td>
-								<td>65.08</td>
-								<td>80.35</td>
-								<td>58.94</td>
-								<td>64.24</td>
-								<td>0 out of 10</td>
-								<td>2 out of 9</td>
-								<td>2 out of 10</td>
-							</tr>
-							<tr>
-								<td id="category">Care Transition</td>
-								<td>25.21</td>
-								<td>51.45</td>
-								<td>62.44</td>
-								<td>51.44</td>
-								<td>52.30</td>
-								<td>1 out of 10</td>
-								<td>0 out of 9</td>
-								<td>1 out of 10</td>
-							</tr>
-							<tr>
-								<td id="category">Communication about Medicines</td>
-								<td>43.43</td>
-								<td>63.37</td>
-								<td>73.66</td>
-								<td>62.91</td>
-								<td>61.47</td>
-								<td>0 out of 10</td>
-								<td>0 out of 9</td>
-								<td>0 out of 10</td>
-							</tr>
-							<tr>
-								<td id="category">Cleanliness and Quietness of Hospital Environment</td>
-								<td>40.05</td>
-								<td>65.60</td>
-								<td>79.00</td>
-								<td>62.77</td>
-								<td>62.27</td>
-								<td>0 out of 10</td>
-								<td>0 out of 9</td>
-								<td>0 out of 10</td>
-							</tr>
-							<tr>
-								<td id="category">Discharge Information</td>
-								<td>62.25</td>
-								<td>86.60</td>
-								<td>91.63</td>
-								<td>87.29</td>
-								<td>88.30</td>
-								<td>4 out of 10</td>
-								<td>2 out of 9</td>
-								<td>4 out of 10</td>
-							</tr>
-							<tr>
-								<td id="category">Overall Rating of Hospital</td>
-								<td>37.67</td>
-								<td>70.23</td>
-								<td>84.58</td>
-								<td>69.34</td>
-								<td>72.73</td>
-								<td>2 out of 10</td>
-								<td>2 out of 9</td>
-								<td>2 out of 10</td>
-							</tr>
-							</table>
-							<br>
-							<table border="1">
-							<tr>
-								<td id="category">HCAHPS Base Score</td>
-								<td>10</td>
-							</tr>
-							<tr>
-								<td id="category">HCAHPS Consistency Score</td>
-								<td>15</td>
-							</tr>
-						</table>
-                    <div id="Saftey" >
-					<h3>Safety</h3>
-						<table border="1">
-							<tr>
-								<td id="measure"></td>
-								<td id="measure">Achievement Threshold</td>
-								<td id="measure">Benchmark</td>
-								<td id="measure">Baseline Rate</td>
-								<td id="measure">Performance Rate</td>
-								<td id="measure">Achievement Points</td>
-								<td id="measure">Improvement Points</td>
-								<td id="measure">Dimension Score</td>
-								
-							</tr>
-						
-							<tr>
-								<td id="category">PSI-90</td>
-								<td>0.964542</td>
-								<td>0.709498</td>
-								<td>1.482481</td>
-								<td>0.57255</td>
-								<td>10 out of 10</td>
-								<td>9 out of 9</td>
-								<td>10 out of 10</td>
-							</tr>
-							<tr>
-								<td id="category">HA1</td>
-								<td>0.369</td>
-								<td>0</td>
-								<td>0.479</td>
-								<td>0.9</td>
-								<td>0 out of 10</td>
-								<td>0 out of 9</td>
-								<td>0 out of 10</td>
-							</tr>
-							<tr>
-								<td id="category">HAI-2</td>
-								<td>0.906</td>
-								<td>0</td>
-								<td>0.461</td>
-								<td>0.691</td>
-								<td>3 out of 10</td>
-								<td>0 out of 9</td>
-								<td>2 out of 10</td>
-							</tr>
-							<tr>
-								<td id="category">HAI-3</td>
-								<td>0.824</td>
-								<td>0</td>
-								<td>0.917</td>
-								<td>1.17</td>
-								<td>0 out of 10</td>
-								<td>0 out of 9</td>
-								<td>0 out of 10</td>
-							</tr>
-							<tr>
-								<td id="category">HAI-4</td>
-								<td>0.71</td>
-								<td>0</td>
-								<td>0.711</td>
-								<td>0</td>
-								<td>10 out of 10</td>
-								<td>9 out of 9</td>
-								<td>10 out of 10</td>
-							</tr>
-							<tr>
-								<td id="category">HAI-5</td>
-								<td>0.767</td>
-								<td>0</td>
-								<td>1.129</td>
-								<td>1.632</td>
-								<td>0 out of 10</td>
-								<td>0 out of 9</td>
-								<td>0 out of 10</td>
-							</tr>
-							<tr>
-								<td id="category">HAI-6</td>
-								<td>0.805</td>
-								<td>0.004</td>
-								<td>2.113</td>
-								<td>1.103</td>
-								<td>0 out of 10</td>
-								<td>4 out of 9</td>
-								<td>4 out of 10</td>
-							</tr>
-							<tr>
-								<td id="category">PC-01</td>
-								<td>0.020408</td>
-								<td>0</td>
-								<td>0.016949</td>
-								<td>0.017241</td>
-								<td>2 out of 10</td>
-								<td>0 out of 9</td>
-								<td>2 out of 10</td>
-							</tr>
-							</table>
-							<br>
-							<table border="1">
-							<tr>
-								<td id="category">Combined SSI Score</td>
-								<td>2 out of 10</td>
-							</tr>
-						</table>
-						<h3>Medicare Reimbursement</h3>
-							<table border="1">
-							<tr>
-								<td id="category">Base Reimbursement</td>
-								<td>38,145,589.18</td>
-							</tr>
-							<tr>
-								<td id="category">2% Cut</td>
-								<td>762,911.78</td>
-							</tr>
-							<tr>
-								<td id="category">Adjusted + 2%*TPS = Actual</td>
-								<td>50,825,182.96</td>
-							</tr>
-							</table>
-			    			<h3>Clinical Care</h3>
-							<table border="1">
-							<tr>
-								<td id="category">Unweighted Normalized Clinical Care Domain Score</td>
-								<td>16.667</td>
-							</tr>
-							<tr>
-								<td id="category">Weighted Normalized Clinical Care Domain Score</td>
-								<td>4.167</td>
-							</tr>
-							</table>
-				</div>
-			</div>
-				<div id="Efficiency">
-				<h3>Efficiency</h3>
-					<table border="1">
-					<tr>
-						<td id="category">Threshold</td>
-						<td>0.985777</td>
-					</tr>
-					<tr>
-						<td id="category">Benchmark</td>
-						<td>0.832678</td>
-					</tr>
-					<tr>
-						<td id="category">Baseline</td>
-						<td>1.047507</td>
-					</tr>
-					<tr>
-						<td id="category">Performance</td>
-						<td>1.047507</td>
-					</tr>
-					</table>
-				</div>
-		</div>
-	</body>
-</html>
+body {
+	background-color: #DCDCDC;
+	min-width: 800px;	
+	margin-left: 3%;
+	margin-right: 3%;
+	position: relative;
+	padding: 20px;
+   font-family: "Verdana", sans-serif;
+}
+img {
+	width: 200px;
+	height: 180px;
+	border-radius: 5px;
+}
+table {
+	border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    font-size: 10pt;
+}
+p	{
+	font-size: 11pt;
+}
+
+table #category {
+  background: #9F9FA0; 
+  text-align: center; 
+  
+}
+
+table #measure {
+  background: #9F9FA0; 
+  text-align: center; 
+}
+
+td {
+	min-width: 70px;
+	max-width: 100px;
+}
+
+tr {
+	height: 30px;
+}
+
+
+h1{
+	color: #00806F;
+	display: inline;
+	font-size: 50px;
+}
+h2 {
+	color: #00806F;
+}
+
+h3 {
+	color: #1D2F74;
+}
+
