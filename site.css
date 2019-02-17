@@ -1,25 +1,24 @@
 body {
 	background-color: #DCDCDC;
-	min-width: 600px;	
-	margin-left: 5%;
-	margin-right: 5%;
+	min-width: 800px;	
+	margin-left: 3%;
+	margin-right: 3%;
 	position: relative;
-	border-style: solid;
-	border-width: 2px;
-	border-color: #444444;
 	padding: 20px;
     font-family: "Verdana", sans-serif;
     font-size: 9pt;
 }
 img{
-width: 200px;
-height: 180px;
+	width: 200px;
+	height: 180px;
+	border-radius: 5px;
 
 }
 table {
 	border: 1px solid black;
     border-collapse: collapse;
     text-align: center;
+    
 }
 
 table #category {
@@ -36,7 +35,6 @@ table #measure {
 td {
 	min-width: 70px;
 	max-width: 100px;
-	#padding: 8px;
 }
 
 tr {
@@ -57,26 +55,3 @@ h3 {
 	color: #1D2F74;
 }
 
-#Hospital_Scores {
-	float: right;
-}
-
-#Hospital_Scores h3{
-	text-align: right;
-}
-
-#Threshold {
-	float: left;
-}
-
-#Benchmarks table{
-	position: relative;	
-	left: 30%;
-	width: 40%;
-	width: 400px;
-}
-
-#Benchmarks h3{
-	clear: both;
-	text-align: center;
-}
