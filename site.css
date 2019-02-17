@@ -17,6 +17,7 @@ table {
     border-collapse: collapse;
     text-align: center;
     font-size: 10pt;
+    width: 50%;
 }
 p	{
 	font-size: 11pt;
@@ -55,4 +56,3 @@ h2 {
 h3 {
 	color: #1D2F74;
 }
-
